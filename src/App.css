@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Matemasie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');.font-Matemasie{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wendy-one-regular {
+  font-family: "Wendy One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-link {
+  color: white; /* text-white */
+  font-weight: bold; /* font-bold */
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover {
+  text-decoration: underline; /* hover:underline */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buy-btn{
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.App-link {
-  color: #61dafb;
+.text-shadow{
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+.text-mid-shadow{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-light-shadow{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.bright-cyan{
+  color: rgb(40 210 255);
 }
