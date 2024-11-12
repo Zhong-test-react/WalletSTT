@@ -23,7 +23,7 @@ export default function CustomButton(){
     }
     
     return(
-        <button className="bg-blue-500 text-white py-2 px-4 rounded-xl hover:bg-blue-600 transition duration-200" onClick={onClick} disabled={loading}>
+        <button className="wendy-one-regular bg-yellow-600 text-white py-2 px-2 rounded-xl hover:bg-yellow-700 transition duration-200" onClick={onClick} disabled={loading}>
             {loading? "Loading...": label}
         </button>
     )
